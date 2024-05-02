@@ -14,7 +14,49 @@
         display: block;
     }
 
+    /* SEÇÃO APRESENTAÇAO*/
+    .secao__apresentacao{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .apresentacao__nome{
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__funcao{
+        font-size: 1rem;
+    }
+
+    .apresentacao__contatos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .apresentacao__contatos--icones{
+        width: 30px;
+        height: 30px;
+    }
+
+    .apresentacao__foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao__foto img{
+        width: 70%;
+        height: 70%;
+    }
 
     /*RODAPÉ*/
     .rodape__container{
@@ -25,7 +67,6 @@
         font-size: 0.7em;
     }
 }
-
 
 
 /*Tablets pequenos*/
@@ -42,6 +83,20 @@
     
     .cabecalho__botao--menu{
         display: block;
+    }
+
+    /* SEÇÃO APRESENTAÇAO*/
+    .apresentacao__foto img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .apresentacao__nome{
+        font-size: 1.8rem;
+    }
+
+    .apresentacao__funcao{
+        font-size: 1.3rem;
     }
 
     /*RODAPÉ*/

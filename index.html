@@ -26,13 +26,13 @@
         </nav>
 
     
-        <button class="cabecalho__botao--menu" onclick="openMenu()">
+        <button title="title" class="cabecalho__botao--menu" onclick="openMenu()">
             <i class="fa-solid fa-bars fa-2x"></i>
         </button>
     </header>
 
 
-    <!--Menu Responsivo-->
+    <!-- MENU RESPONSIVO -->
     <nav class="menu__mobile" id="menu_mobile">
 
         <a href="javascript:void(0)" class="menu__mobile--close-menu" onclick="closeMenu()">&times;</a>
@@ -46,10 +46,30 @@
         </div>
     </nav>
     
+    <!-- SEÇÃO APRESENTAÇÃO -->
+    <section class="secao__apresentacao">
+        <div class="apresentacao">
+            <h1 class="apresentacao__nome">Maikon Henrique</h1>
+            <h2 class="apresentacao__funcao">Desenvolvedor <strong>Full Stack</strong></h2>
+            <div class="apresentacao__contatos">
+                <a href="https://www.linkedin.com/in/maikonhenrique/" rel="noopener" target="_blank" class="apresentacao__contatos--icones"><img src="assets/image/icon_linkedin.png" alt="icone linkedin"></a>
+                <a href="https://github.com/MaikonHenriqu9" rel="noopener" target="_blank" class="apresentacao__contatos--icones"><img src="assets/image/icon_github.png" alt="icone github"></a>
+                <a href="https://wa.me/5511996745078" rel="noopener" target="_blank" class="apresentacao__contatos--icones"><img src="assets/image/icon_wpp.png" alt="icone whatsapp"></a>
+            </div>
+
+            <div class="apresentacao__btn-curriculo">
+                <a href="assets/curriculo_Maikon.pdf" download="curriculo_Maikon">Baixar CV</a>
+            </div>
+        </div>
+
+        <div class="apresentacao__foto">
+            <img src="assets/image/foto_principal.png" alt="">
+        </div>
+    </section>
 
     <!-- RODAPÉ -->
     <footer class="rodape__container">
-        <strong class="rodape__informacao">Desenvolvido por Maikon Henrique</strong>
+        <p class="rodape__informacao">Desenvolvido por Maikon Henrique</p>
     </footer>
 
     <script src="assets/js/script.js"></script>
