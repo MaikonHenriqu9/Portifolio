@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">   
+    <link rel="stylesheet" href="assets/css/responsividade.css">
     <title>Maikon Henrique</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="assets/image/logo.png" alt="logo do site">
+        </div>
+
+        <nav class="cabecalho__menu">
+            <a href="#" class="cabecalho__menu--link">Sobre Mim</a>
+            <a href="#" class="cabecalho__menu--link">Skills</a>
+            <a href="#" class="cabecalho__menu--link">Projetos</a>
+            <a href="#" class="cabecalho__menu--link">Formação</a>
+            <a href="#" class="cabecalho__menu--link">Contato</a>
+        </nav>
+
     
+        <button class="cabecalho__botao--menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+    </header>
+
+
+    <!--Menu Responsivo-->
+    <nav class="menu__mobile" id="menu_mobile">
+
+        <a href="javascript:void(0)" class="menu__mobile--close-menu" onclick="closeMenu()">&times;</a>
+       
+        <div class="menu__mobile--links">
+            <a href="#" class="cabecalho__menu--link">Sobre Mim</a>
+            <a href="#" class="cabecalho__menu--link">Skills</a>
+            <a href="#" class="cabecalho__menu--link">Projetos</a>
+            <a href="#" class="cabecalho__menu--link">Formação</a>
+            <a href="#" class="cabecalho__menu--link">Contato</a>
+        </div>
+    </nav>
+    
+
+    <!-- RODAPÉ -->
+    <footer class="rodape__container">
+        <strong class="rodape__informacao">Desenvolvido por Maikon Henrique</strong>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

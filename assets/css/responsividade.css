@@ -1,0 +1,60 @@
+/*Celulares*/
+@media(max-width: 480px){
+    /*CABEÇALHO*/
+    .cabecalho__logo img{
+        width: 140px;
+        height: 50px;
+    }
+
+    .cabecalho__menu{ 
+        display: none;
+    }
+    
+    .cabecalho__botao--menu{
+        display: block;
+    }
+
+
+
+    /*RODAPÉ*/
+    .rodape__container{
+        height: 60px;
+    }
+
+    .rodape__informacao{
+        font-size: 0.7em;
+    }
+}
+
+
+
+/*Tablets pequenos*/
+@media(min-width: 481px) and (max-width: 991px){
+    /*CABEÇALHO*/
+    .cabecalho__logo img{
+        width: 160px;
+        height: 60px;
+    }
+
+    .cabecalho__menu{ 
+        display: none;
+    }
+    
+    .cabecalho__botao--menu{
+        display: block;
+    }
+
+    /*RODAPÉ*/
+    .rodape__container{
+        height: 60px;
+    }
+
+    .rodape__informacao{
+        font-size: 1em;
+    }
+}
+
+/*Tablets/Notebooks grandes*/
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
