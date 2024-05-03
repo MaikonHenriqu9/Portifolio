@@ -1,5 +1,5 @@
 /*Celulares*/
-@media(max-width: 480px){
+@media(max-width: 540px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 140px;
@@ -19,6 +19,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding: 6% 5%;
     }
 
     .apresentacao{
@@ -58,6 +59,34 @@
         height: 70%;
     }
 
+    /*SEÇAO SOBRE MIM*/
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 4%;
+        gap: 20px;
+    }
+
+    .sobre-mim__foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-mim__foto img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .sobre-mim__informacoes{
+        width: 80%;
+    }
+
+    .sobre-mim__titulo{
+        font-size: 2.25rem;
+    }
+
     /*RODAPÉ*/
     .rodape__container{
         height: 60px;
@@ -70,7 +99,7 @@
 
 
 /*Tablets pequenos*/
-@media(min-width: 481px) and (max-width: 991px){
+@media(min-width: 541px) and (max-width: 991px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 160px;
@@ -86,9 +115,14 @@
     }
 
     /* SEÇÃO APRESENTAÇAO*/
+    .apresentacao__foto{
+        width: 250px;
+        height: 250px;
+    }
+
     .apresentacao__foto img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .apresentacao__nome{
@@ -97,6 +131,29 @@
 
     .apresentacao__funcao{
         font-size: 1.3rem;
+    }
+
+    .apresentacao__contatos--icones{
+        width: 30px;
+        height: 30px;
+    }
+
+    /*SEÇAO SOBRE MIM*/
+    .sobre-mim{
+        padding: 5%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .sobre-mim__foto img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .sobre-mim__titulo{
+        font-size: 2rem;
     }
 
     /*RODAPÉ*/
@@ -109,7 +166,7 @@
     }
 }
 
-/*Tablets/Notebooks grandes*/
-@media(min-width: 992px) and (max-width: 1199px){
 
-}
+
+/*Tablets/Notebooks grandes*/
+@media(min-width: 992px) and (max-width: 1199px){}

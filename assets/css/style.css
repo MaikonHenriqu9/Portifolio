@@ -4,6 +4,7 @@
     --cor-principal: #171F2B;
     --cor-secundaria: #28374D;
     --cor-terciaria: #00D7BE;
+    --cor-menu: #010e22;
     --cor-fontes: #fff;
 }
 
@@ -64,7 +65,7 @@ body{
 }
 
 .menu__mobile{
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-menu);
     width: 0;
     height: 100%;
     z-index: 9;
@@ -89,11 +90,11 @@ body{
     font-size: 0.8rem;
 }
 
-/* SEÇÃO APRESENTAÇAO*/
+/*SEÇÃO APRESENTAÇAO*/
 .secao__apresentacao{
     background-color: var(--cor-principal);
     display: flex;
-    padding: 2% 5%;
+    padding: 4% 5%;
     gap: 20px;
 }
 
@@ -150,7 +151,41 @@ body{
     height: 500px;
 }
 
-/* RODAPÉ */
+/*SEÇAO SOBRE MIM*/
+.sobre-mim{
+    background-color: var(--cor-secundaria);
+    padding: 4% 5%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sobre-mim__foto img{
+    width: 320px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+.sobre-mim__informacoes{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre-mim__titulo{
+    color: var(--cor-fontes);
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+.sobre-mim__descricao{
+    font-size: 1.25rem;
+    color: var(--cor-fontes);
+    font-weight: 400;
+}
+
+/*RODAPÉ*/
 .rodape__container{
     bottom: 0;
     width: 100%;
