@@ -257,23 +257,25 @@ body{
 
 .habilidades__container{
     display: flex;
+    width: 70%;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    padding: 1%;
-    gap: 10%;
+    gap: 5%;
     wrap: wrap;
 }
 
 .habilidades__informacoes{
-    background-color: red;
     width: 100%;
+}
+
+.habilidades__informacoes .informacoes__itens{
+    margin: 5% 0;
 }
 
 .informacoes__itens{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .informacoes__itens img{
