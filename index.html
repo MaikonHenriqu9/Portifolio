@@ -13,13 +13,13 @@
 <body>
     <!-- CABEÇALHO -->
     <header class="cabecalho">
-        <div class="cabecalho__logo">
+        <a href="#" class="cabecalho__logo">
             <img src="assets/image/logo.png" alt="logo do site">
-        </div>
+        </a>
 
         <nav class="cabecalho__menu">
-            <a href="#" class="cabecalho__menu--link">Sobre Mim</a>
-            <a href="#" class="cabecalho__menu--link">Skills</a>
+            <a href="#sobre" class="cabecalho__menu--link">Sobre Mim</a>
+            <a href="#skills" class="cabecalho__menu--link">Skills</a>
             <a href="#" class="cabecalho__menu--link">Projetos</a>
             <a href="#" class="cabecalho__menu--link">Formação</a>
             <a href="#" class="cabecalho__menu--link">Contato</a>
@@ -68,7 +68,7 @@
     </section>
 
     <!-- SEÇÃO SOBRE MIM -->
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobre">
         <div class="sobre-mim__foto">
             <img src="assets/image/foto_accenture.jpg" alt="minha foto atrás da logo da empresa accenture">
         </div>
@@ -87,6 +87,60 @@
                 Apaixonado pelo mundo da tecnologia, estou em busca da primeira oportunidade profissional
                 para colocar em prática todo conhecimento adquirido por meio dos estudos.
             </p>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills__container" id="skills">
+        <h3 class="titulo">Tecnologias</h3>
+        <div class="slide__container">
+            <div class="slide-items">
+                <img src="assets/image/icon_html.png" alt="logo" >
+                <img src="assets/image/icon_css.png" alt="logo" >
+                <img src="assets/image/icon_js.png" alt="logo" >
+                <img src="assets/image/icon_reactjs.png" alt="logo" >
+                <img src="assets/image/icon_mysql.png" alt="logo" >
+                <img src="assets/image/icon_java.png" alt="logo" >
+                <img src="assets/image/icon_dotnet.png" alt="logo" >
+            </div>
+        </div>
+
+        <h3 class="titulo">Habilidades</h3>
+        <div class="habilidades__container">
+            <div class="habilidades__informacoes">
+                <ul class="informacoes__itens">
+                    <img src="assets/image/icon_equipe.png" alt="">
+                    <p class="habilidades__descricao">Trabalho em Equipe</p>
+                </ul>
+
+                 <ul class="informacoes__itens">
+                    <img src="assets/image/icon_comunicacao.png" alt="" srcset="">
+                    <p class="habilidades__descricao">Comunicação</p>
+                 </ul>
+
+                 <ul class="informacoes__itens">
+                    <img src="assets/image/icon_tempo.png" alt="" srcset="">
+                    <p class="habilidades__descricao">Organização</p>
+                 </ul>
+            </div>
+
+            <div class="habilidades__informacoes">
+               <ul class="informacoes__itens">
+                    <img src="assets/image/icon_agilidade.png" alt="">
+                    <p class="habilidades__descricao">Agilidade</p>
+                </ul>
+
+                <ul class="informacoes__itens">
+                    <img src="assets/image/icon_tempo.png" alt="">
+                    <p class="habilidades__descricao">Gerenciamento de Tempo</p>
+                </ul>
+
+                <ul class="informacoes__itens">
+                    <img src="assets/image/icon_persistencia.png" alt="" srcset="">
+                    <p class="habilidades__descricao">Persistência</p>
+                </ul>
+            </div>
         </div>
 
     </section>
