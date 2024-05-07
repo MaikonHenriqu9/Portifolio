@@ -185,6 +185,108 @@ body{
     font-weight: 400;
 }
 
+/*SKILLS*/
+.skills__container{
+    padding: 3%;
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: var(--cor-fontes);
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin:4%;
+}
+
+.slide__container{
+    width: 90%;
+    padding: 3% 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.slide__container:before,
+.slide__container:after{
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.slide__container:before{
+    left: 0;
+    background: linear-gradient(to left, transparent,  var(--cor-principal));
+}
+.slide__container:after{
+    right: 0;
+    background: linear-gradient(to right, transparent,  var(--cor-principal));
+}
+
+.slide-items{
+    display: inline-block;
+    animation: scrolling 7s linear infinite;
+}
+
+.slide-items img{
+    height: 15%;
+    margin: 0 30px;
+}
+
+.slide__container:hover .slide-items{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes scrolling {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.habilidades__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1%;
+    gap: 10%;
+    wrap: wrap;
+}
+
+.habilidades__informacoes{
+    background-color: red;
+    width: 100%;
+}
+
+.informacoes__itens{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacoes__itens img{
+    height: 20px;
+}
+
+.habilidades__descricao{
+    color: var(--cor-fontes);
+    font-size:1.7rem;
+    font-weight: 500;
+}
+
+
 /*RODAPÉ*/
 .rodape__container{
     bottom: 0;
