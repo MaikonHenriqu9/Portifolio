@@ -7,3 +7,6 @@ function openMenu(){
 function closeMenu(){
     document.getElementById("menu_mobile").style.width = "0%";
 }
+
+var copiarSlide = document.querySelector(".slide-items").cloneNode(true);
+document.querySelector('.slide__container').appendChild(copiarSlide);
