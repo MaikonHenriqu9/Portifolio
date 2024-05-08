@@ -6,6 +6,7 @@
     --cor-terciaria: #00D7BE;
     --cor-menu: #010e22;
     --cor-fontes: #fff;
+    --cor-fontes-secundarias: #000;
 }
 
 body{
@@ -163,7 +164,8 @@ body{
 .sobre-mim__foto img{
     width: 320px;
     height: 420px;
-    border-radius: 5px;
+    border-radius: 5px;    
+    object-fit: cover;
 }
 
 .sobre-mim__titulo{
@@ -180,7 +182,7 @@ body{
 }
 
 .sobre-mim__descricao{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--cor-fontes);
     font-weight: 200;
 }
@@ -289,11 +291,86 @@ body{
     font-weight: 500;
 }
 
+/*PROJETOS*/
+.projetos__container{
+    padding: 4% 10%;
+    background-color: var(--cor-secundaria);
+}
+
+.projetos__titulo{
+    color: var(--cor-fontes);
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin: 0 0 3% 0;
+}
+
+.projetos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.projeto__item{
+    width: 450px;
+}
+
+.projeto__item img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.projeto__item__tecnologia{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin: 2% 0;
+}
+
+.projeto__item__tecnologia img {
+    width: 40px;
+    height: 40px;
+}
+
+.projeto__descricao{
+    width: 100%;
+}
+
+.projeto__descricao__titulo{
+    color: var(--cor-fontes);
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+.projeto__descricao__sobre{
+    font-size: 1rem;
+    color: var(--cor-fontes);
+    font-weight: 400;
+}
+
+.projeto__descricao__links{
+    width: 100%;
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 10%;
+}
+
+.projeto__descricao__botao{
+    color: var(--cor-fontes-secundarias);
+    background-color: var(--cor-terciaria);
+    font-weight: bold;
+    text-align: center;
+    width: 40%;
+    padding: 3%;
+}
 
 
 /*FORMAÇÃO*/
 .formacao__container{
-    padding: 4%;
+    padding: 4% 10%;
     background-color: var(--cor-secundaria);
 }
 
@@ -325,11 +402,11 @@ body{
 }
 
 .formacoes__itens{
-    width: 340px;
+    width: 300px;
 }
 
 .formacoes__itens img{
-    width: 340px;
+    width: 300px;
     height: 210px;
     object-fit: cover;
 }
