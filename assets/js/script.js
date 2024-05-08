@@ -1,6 +1,6 @@
 /*Função para abrir o menu*/
 function openMenu(){
-    document.getElementById("menu_mobile").style.width = "50%";
+    document.getElementById("menu_mobile").style.width = "40%";
 }
 
 /*Função para fechar o menu*/
