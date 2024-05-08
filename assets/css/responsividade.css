@@ -87,15 +87,16 @@
         font-size: 2.25rem;
     }
 
+
     /*SKILLS*/
     
     .skills__container{
-        padding: 1%;
+        padding: 3% 1%;
     }
     
-    .titulo{
-        font-size: 2.25rem;
-        margin: 2% 0;
+    .tecnologia__titulo, .habilidade__titulo{
+        font-size: 2rem;
+        margin: 3% 0;
     }
 
     .slide__container{
@@ -103,6 +104,7 @@
     }
 
     .slide-items img{
+        width: 50px;
         height: 50px;
         margin: 0 15px;
     }
@@ -118,10 +120,50 @@
     }
 
     .habilidades__informacoes{
-        width: 70%;
+        width: 90%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+
+    /*FORMAÇÃO*/
+    .formacao__container{
+        text-align: center;
+    }
+
+    .formacao__titulo{
+        font-size: 2rem;
+        margin: 2% 0 5% 0;
+    }
+
+    .formacoes{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .formacoes__itens{
+        width: 240px;
+    }
+
+    .formacoes__itens img{
+        width: 240px;
+        height: 150px;
+    }
+
+    .formacao__curso{
+        font-size: 1rem;
+    }
+
+    .formacao__instituicao,
+    .formacao__data{
+        font-size: 0.8rem;
+    }
+
+    .formacao__curso,
+    .formacao__instituicao,
+    .formacao__data{
+        text-align: left;
     }
 
     /*RODAPÉ*/

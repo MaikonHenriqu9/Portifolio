@@ -166,6 +166,12 @@ body{
     border-radius: 5px;
 }
 
+.sobre-mim__titulo{
+    color: var(--cor-fontes);
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
 .sobre-mim__informacoes{
     width: 45%;
     display: flex;
@@ -173,16 +179,10 @@ body{
     gap: 10px;
 }
 
-.sobre-mim__titulo{
-    color: var(--cor-fontes);
-    font-size: 3.25rem;
-    font-weight: bold;
-}
-
 .sobre-mim__descricao{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: var(--cor-fontes);
-    font-weight: 400;
+    font-weight: 200;
 }
 
 /*SKILLS*/
@@ -196,7 +196,7 @@ body{
     align-items: center;
 }
 
-.titulo{
+.tecnologia__titulo, .habilidade__titulo{
     color: var(--cor-fontes);
     font-size: 3.25rem;
     font-weight: bold;
@@ -279,6 +279,7 @@ body{
 }
 
 .informacoes__itens img{
+    width: 20px;
     height: 20px;
 }
 
@@ -288,6 +289,50 @@ body{
     font-weight: 500;
 }
 
+
+
+/*FORMAÇÃO*/
+.formacao__container{
+    padding: 4%;
+    background-color: var(--cor-secundaria);
+}
+
+.formacao__titulo{
+    color: var(--cor-fontes);
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin: 0 0 3% 0;
+}
+
+.formacoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.formacao__curso{
+    color: var(--cor-fontes);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 2% 0;
+}
+
+.formacao__instituicao, .formacao__data{
+    color: var(--cor-fontes);
+    font-weight: 500;
+    font-size: 1.12rem;
+}
+
+.formacoes__itens{
+    width: 340px;
+}
+
+.formacoes__itens img{
+    width: 340px;
+    height: 210px;
+    object-fit: cover;
+}
 
 /*RODAPÉ*/
 .rodape__container{
