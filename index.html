@@ -22,7 +22,7 @@
             <a href="#skills" class="cabecalho__menu--link">Skills</a>
             <a href="#projetos" class="cabecalho__menu--link">Projetos</a>
             <a href="#formacao" class="cabecalho__menu--link">Formação</a>
-            <a href="#" class="cabecalho__menu--link">Contato</a>
+            <a href="#contato" class="cabecalho__menu--link">Contato</a>
         </nav>
 
     
@@ -42,7 +42,7 @@
             <a href="#skills" class="cabecalho__menu--link">Skills</a>
             <a href="#projetos" class="cabecalho__menu--link">Projetos</a>
             <a href="#formacao" class="cabecalho__menu--link">Formação</a>
-            <a href="#" class="cabecalho__menu--link">Contato</a>
+            <a href="#contato" class="cabecalho__menu--link">Contato</a>
         </div>
     </nav>
     
@@ -57,9 +57,7 @@
                 <a href="https://wa.me/5511996745078" rel="noopener" target="_blank" class="apresentacao__contatos--icones"><img src="assets/image/icon_wpp.png" alt="icone whatsapp"></a>
             </div>
 
-            <div class="apresentacao__btn-curriculo">
-                <a href="assets/curriculo_Maikon.pdf" download="curriculo_Maikon">Baixar CV</a>
-            </div>
+            <a href="assets/curriculo_Maikon.pdf" download="curriculo_Maikon" class="apresentacao__btn-curriculo">Baixar CV</a>
         </div>
 
         <div class="apresentacao__foto">
@@ -177,10 +175,11 @@
                     <img src="assets/image/icon_html.png" alt="">
                     <img src="assets/image/icon_css.png" alt="">
                     <img src="assets/image/icon_js.png" alt="">
+                    <img src="assets/image/icon_reactjs.png" alt="">
                 </div>
 
                 <div class="projeto__descricao">
-                    <h4 class="projeto__descricao__titulo">Barbearia Didico</h4>
+                    <h4 class="projeto__descricao__titulo">Zion Bank</h4>
                     <p class="projeto__descricao__sobre">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam modi suscipit labore expedita velit aspernatur ex exercitationem officia totam distinctio ullam, similique itaque. Eius cupiditate nihil provident eum labore magnam!
                         Incidunt possimus assumenda consequuntur adipisci, eveniet itaque commodi quo quas velit? Rem excepturi ea, nisi consequatur natus tempora eius sequi veniam fuga autem commodi deserunt voluptates doloribus facilis. Dolorum, mollitia.
@@ -201,7 +200,7 @@
        <h3 class="formacao__titulo">Formação</h3>
        <div class="formacoes">
             <li class="formacoes__itens">
-                <img src="assets/image/proa.png" alt="">
+                <img src="assets/image/foto_fatec.jpg" alt="">
 
                 <div class="formacao__descricao">                    
                     <h4 class="formacao__curso">Análise e Desenvolvimento de Sistemas</h4>
@@ -228,10 +227,61 @@
                     <div class="formacao__data">12/2023</div>
                 </div>
             </li>
+
+            <li class="formacoes__itens">
+                <img src="assets/image/foto_oracle_one.png" alt="">
+                <div class="formacao__descricao">                    
+                    <h4 class="formacao__curso">Formação Front-End</h4>
+                    <p class="formacao__instituicao">Oracle ONE + Alura</p>
+                    <div class="formacao__data">2024</div>
+                </div>
+            </li>
        </div>
-       
-        
-        
+         
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato__container" id="contato">
+        <form class="formulario__container">
+            <div class="formulario__inputs">
+                <div>                    
+                    <label for="nome" class="formulario__titulo">Nome</label> <br>                   
+                    <input type="text" name="nome" id="" class="formulario__estilizacao__inputs">
+                </div>
+                <div>
+                    <label for="nome" class="formulario__titulo">Email</label> <br>                    
+                    <input type="text" name="nome" id="" class="formulario__estilizacao__inputs">
+                </div>
+            </div>
+
+            <label for="assunto_email" class="formulario__titulo">Assunto</label>
+
+            <input type="email" name="assunto_email" id="" class="formulario__estilizacao__input">
+
+            <textarea name="mensagem_email" id="mensagem_email" class="formulario__estilizacao__textarea"></textarea>
+
+            <button type="submit" class="formulario__btn">Enviar</button>
+        </form>
+
+        <div class="contatos__container">
+            <h3 class="contatos__titulo">Contatos</h3>
+
+            <li class="contatos__icone">
+                <img src="assets/image/icon_phone.png" alt="">
+                <p class="contatos__icone__descricao">(11) 99674-5078</p>
+            </li>
+
+            <li class="contatos__icone">
+                <img src="assets/image/icon_gmail.png" alt="">
+                <p class="contatos__icone__descricao">maikonhenrique189@gmail.com</p>            
+            </li>
+
+            <li class="contatos__icone">
+                <img src="assets/image/icon_linkedin.png" alt="">
+                <p class="contatos__icone__descricao">linkedin.com/in/maikonhenrique</p>            
+            </li>
+        </div>
+
     </section>
 
     <!-- RODAPÉ -->
