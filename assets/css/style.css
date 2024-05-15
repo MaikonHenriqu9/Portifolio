@@ -21,7 +21,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1% 2%;
+    padding: 1% 4%;
     z-index: 1;
     /*position:sticky;*/
 }
@@ -51,7 +51,7 @@ body{
 }
 
 .cabecalho__botao--menu i {
-    color: var(--cor-fontes);
+    color: #fff;
 }
 
 .cabecalho__botao--menu{
@@ -391,7 +391,6 @@ body{
 .formacoes{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -479,7 +478,7 @@ body{
 
 .formulario__estilizacao__inputs, .formulario__estilizacao__input, .formulario__estilizacao__textarea{
     background-color: var(--cor-principal);
-    border: 3px solid var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria);
     border-radius: 10px;   
     margin: 2% 0;
     color: var(--cor-fontes);
@@ -512,6 +511,11 @@ body{
     display: flex;
     align-items: center;
     gap: 3%;
+}
+
+.contatos__icone img{
+    width: 40px;
+    height: 40px;
 }
 
 .contatos__icone__descricao{
