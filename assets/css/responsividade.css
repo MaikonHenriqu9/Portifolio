@@ -1,5 +1,5 @@
-/*Celulares*/
-@media(max-width: 540px){
+/*Celulares pequenos*/
+@media(max-width: 480px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 140px;
@@ -15,7 +15,7 @@
     }
 
     /* SEÇÃO APRESENTAÇAO*/
-    .secao__apresentacao{
+    .apresentacao__container{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -60,7 +60,7 @@
     }
 
     /*SEÇAO SOBRE MIM*/
-    .sobre-mim{
+    .sobre-mim__container{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -150,7 +150,7 @@
 
     .projeto__item img{
         width: 100%;
-        height: 150px;
+        height: 180px;
     }
 
     .projeto__item__tecnologia{
@@ -202,7 +202,7 @@
 
     .formacoes__itens img{
         width: 100%;
-        height: 150px;
+        height: 180px;
     }
 
     .formacao__curso{
@@ -220,6 +220,41 @@
         text-align: left;
     }
 
+    /*CONTATO*/
+    .contato__container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .formulario__container{
+        width: 100%;
+    }
+
+    .formulario__inputs{
+        flex-direction: column;
+    }
+
+    .formulario__inputs div{
+        width: 100%;
+    }
+
+    .contatos__container{
+        width: 100%;
+    }
+
+    .contatos__titulo{
+        font-size: 2rem;
+    }
+
+    .contatos__icone img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .contatos__icone__descricao{
+        font-size: 1rem;
+    }
+
     /*RODAPÉ*/
     .rodape__container{
         height: 60px;
@@ -230,9 +265,145 @@
     }
 }
 
+/*Celulares grandes e Tablets*/
+@media(min-width: 481px) and (max-width: 768px){
+    /*CABEÇALHO*/
+    .cabecalho__logo img{
+        width: 160px;
+        height: 60px;
+    }
 
-/*Tablets pequenos*/
-@media(min-width: 541px) and (max-width: 991px){
+    .cabecalho__menu{ 
+        display: none;
+    }
+
+    .cabecalho__botao--menu{
+        display: block;
+    }
+
+    /* SEÇÃO APRESENTAÇAO*/
+        .apresentacao__foto{
+        width: 250px;
+        height: 250px;
+    }
+
+    .apresentacao__foto img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .apresentacao__nome{
+        font-size: 2.2rem;
+    }
+
+    .apresentacao__funcao{
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__contatos--icones{
+        width: 30px;
+        height: 30px;
+    }
+
+    /*SEÇAO SOBRE MIM*/
+    .sobre-mim__container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .sobre-mim__foto img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .sobre-mim__titulo{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .sobre-mim__informacoes{
+        width: 100%;
+    }
+
+    /*SKILLS*/
+    .tecnologia__titulo, .habilidade__titulo{
+        font-size: 2rem;
+    }
+
+    .slide-items img{
+        height: 5%;
+    }
+
+    .habilidades__container{
+        width: 80%;
+    }
+
+    .habilidades__descricao{
+        font-size: 1.7em;
+    }
+
+    /*PROJETOS*/
+    .projetos__titulo{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .projetos{
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /*FORMAÇÃO*/
+    .formacao__titulo{
+        font-size: 2em;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .formacoes{
+        gap: 30px;
+    }
+
+    .formacoes__itens{
+        width: 280px;
+    }
+
+    .formacoes__itens img{
+        width: 100%;
+    }
+
+    /*CONTATOS*/
+    .contato__container{
+        flex-direction: column;
+    }
+
+    .formulario__container{
+        width: 80%;
+    }
+
+    .formulario__inputs{
+        flex-direction: column;
+    }
+
+    .formulario__inputs div{
+        width: 100%;
+    }
+
+    .contatos__container{
+        width: 100%;
+    }
+
+    .contatos__titulo{
+        font-size: 2em;
+        text-align: center;
+    }
+
+}
+
+/*Tablets grandes, notebooks e computadores pequenos*/
+@media(min-width: 769px) and (max-width: 1279px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 160px;
@@ -300,4 +471,4 @@
 }
 
 /*Tablets/Notebooks grandes*/
-@media(min-width: 992px) and (max-width: 1199px){}
+@media(min-width: 1280px){}
