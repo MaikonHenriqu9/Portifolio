@@ -363,11 +363,11 @@
     }
 
     .formacoes{
-        gap: 30px;
+        justify-content: space-between;
     }
 
     .formacoes__itens{
-        width: 280px;
+        width: 250px;
     }
 
     .formacoes__itens img{
@@ -468,7 +468,7 @@
 
     .projetos{
         justify-content: center;
-        gap: 50px;
+        gap: 3%;
     }
 
 
