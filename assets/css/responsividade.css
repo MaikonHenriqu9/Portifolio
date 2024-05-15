@@ -223,7 +223,7 @@
     /*CONTATO*/
     .contato__container{
         flex-direction: column-reverse;
-        gap: 20px;
+        gap: 40px;
     }
 
     .formulario__container{
@@ -266,7 +266,7 @@
 }
 
 /*Celulares grandes e Tablets*/
-@media(min-width: 481px) and (max-width: 768px){
+@media(min-width: 481px) and (max-width: 767px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 160px;
@@ -403,7 +403,7 @@
 }
 
 /*Tablets grandes, notebooks e computadores pequenos*/
-@media(min-width: 769px) and (max-width: 1279px){
+@media(min-width: 768px) and (max-width: 991px){
     /*CABEÇALHO*/
     .cabecalho__logo img{
         width: 160px;
@@ -460,6 +460,47 @@
         font-size: 2rem;
     }
 
+    /*PROJETOS*/
+    .projetos__titulo{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .projetos{
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    /*CONTATOS*/
+    .contato__container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .formulario__container{
+        width:90%;
+    }
+
+    .formulario__inputs{
+        flex-direction: column;
+    }
+
+    .formulario__inputs div{
+        width: 100%;
+    }
+
+    .contatos__container{
+        width: 90%;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .contatos__icone{
+        width: 50%;
+    }
+
     /*RODAPÉ*/
     .rodape__container{
         height: 60px;
@@ -470,5 +511,8 @@
     }
 }
 
-/*Tablets/Notebooks grandes*/
-@media(min-width: 1280px){}
+/* Large tablets */
+@media (min-width: 992px) and (max-width:1199){}
+
+/*Tablets/Notebooks grandes
+@media(min-width: 1280px){}*/
